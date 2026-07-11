@@ -108,3 +108,25 @@
         transform: translateY(0);
     }
 }
+
+@media(max-width:768px){
+
+    .contact-container{
+        margin:50px 20px 70px;
+        padding:30px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .contact-container{
+        padding:22px;
+    }
+
+    .contact-hero h2{
+        letter-spacing:2px;
+        font-size:1.5rem;
+    }
+
+}

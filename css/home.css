@@ -59,6 +59,8 @@ main {
     width: 100%;
     max-width: 1500px;
     padding: 30px;
+    overflow-x: auto;
+    overflow-y: hidden;
     border: 1px solid rgba(212, 175, 55, 0.15);
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 
@@ -67,7 +69,8 @@ main {
 
 #world-map-svg {
     width: 100%;
-    max-width: 1400px;
+    min-width: 900px;
+    height: auto;
     min-height: 650px;
     display: block;
     background: transparent;
@@ -77,4 +80,73 @@ main {
         saturate(0.55);
     opacity: 0.95;
     scroll-margin-top: 180px;
+}
+
+@media (max-width: 768px) {
+
+    main {
+        padding: 20px;
+    }
+
+    .hero {
+        margin-bottom: 40px;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .map-frame {
+        max-width: 430px;
+        padding: 15px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    #world-map-svg {
+        width: 100%;
+        min-width: 100%;
+        height: 520px;
+        min-height: 520px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .hero-title {
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+
+    .hero-subtitle {
+        letter-spacing: 2px;
+    }
+
+    .hero-description {
+        font-size: .95rem;
+        line-height: 1.7;
+    }
+
+    .hero-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .map-frame {
+        max-width: 340px;
+        padding: 10px;
+    }
+
+    #world-map-svg {
+        width: 100%;
+        min-width: 100%;
+        height: 430px;
+        min-height: 430px;
+    }
+
 }

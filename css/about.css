@@ -64,3 +64,36 @@
     line-height: 1.9;
     font-size: 16px;
 }
+
+@media(max-width:768px){
+
+    .about-content{
+        margin:50px auto;
+    }
+
+    .about-text{
+        padding:25px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .about-hero h2{
+        font-size:1.5rem;
+        letter-spacing:2px;
+    }
+
+    .about-description{
+        font-size:.95rem;
+    }
+
+    .about-text{
+        padding:20px;
+    }
+
+    .about-text h3{
+        font-size:20px;
+    }
+
+}
