@@ -39,9 +39,7 @@ Right-click on index.html → Open with Live Server
 
 ## 🌐 Live Demo
 
-```
-https://historic-architecture.vercel.app/
-```
+**Live site:** [Historic Architecture](https://historic-architecture.vercel.app/)
 
 ## 📁 Project Structure
 
