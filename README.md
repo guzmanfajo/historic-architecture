@@ -15,6 +15,28 @@ Historic Architecture is a modern and responsive web application that showcases 
 - CSS3
 - JavaScript
 
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/guzmanfajo/historic-architecture.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd my-portfolio
+```
+
+Open the project using your preferred code editor and launch the `index.html` file in your browser.
+
+Alternatively, if you use Visual Studio Code with the Live Server extension:
+
+```text
+Right-click on index.html → Open with Live Server
+```
+
 ## 🌐 Live Demo
 
 ```
