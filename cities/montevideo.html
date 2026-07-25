@@ -4,44 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historic Architecture</title>
-    <link rel="stylesheet" href="../../css/global.css">
-    <link rel="stylesheet" href="../../css/country.css">
-    <script src="../../js/country.js" defer></script>
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/city.css">
+    <script src="../js/main.js" defer></script>
 </head>
 <body>
 
     <header>
-        <h1 class="site-title">
-            <a href="../../index.html">Historic Architecture</a>
-        </h1>
+        <div class="header-top">
+            <div class="site-title">
+                <a href="../index.html">Historic Architecture</a>
+            </div>
+
+            <button class="menu-toggle" aria-label="Open menu">
+                ☰
+            </button>
+        </div>
+
         <nav>
-            <a href="../../index.html">Home</a>
-            <a href="../../about.html">About</a>
-            <a href="../../contact.html">Contact</a>
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About</a>
+            <a href="../contact.html">Contact</a>
         </nav>
     </header>
 
     <main>
 
-        <section class="country-hero">
+        <section class="city-hero">
 
-            <h2 class="country-title">Uruguay</h2>
+            <h2 class="city-title">Montevideo</h2>
 
-            <div class="country-line"></div>
+            <div class="city-line"></div>
 
-            <p class="country-description">
+            <p class="city-description">
                 Elegant colonial houses, neoclassical palaces, art deco landmarks, coastal mansions, 
-                and historic theaters shape Uruguay’s refined architectural identity. Strongly 
+                and historic theaters shape Montevideo’s refined architectural identity. Strongly 
                 influenced by Europe, its cities preserve a balance of sophistication, history, and 
                 local character expressed through harmonious urban design.
             </p>
         </section>
 
         <section class="city" id="montevideo">
-            <h2>Montevideo</h2>
 
-            <article class="building" data-link="../../building/america/uruguay/montevideo/facultad-derecho.html">
-                <img src="../../img/building/america/uruguay/montevideo/facultad-derecho/facultad-derecho1.jpg" alt="Facultad de Derecho">
+            <a class="building" href="../building/montevideo/facultad-derecho.html">
+                <img src="../img/building/montevideo/facultad-derecho/facultad-derecho1.jpg" alt="Facultad de Derecho">
                 <div class="text">
                     <h3>Facultad de Derecho</h3>
                     <p>
@@ -49,12 +55,12 @@
                         monumental columns and symmetrical design. Built in the early 20th century, it 
                         reflects academic prestige and remains a symbol of legal education in Uruguay.
                     </p>
-                    <a href="../../building/america/uruguay/montevideo/facultad-derecho.html">Read more</a>
+                    <span class="read-more">Read more</span>
                 </div>
-            </article>
+            </a>
 
-            <article class="building" data-link="../../building/america/uruguay/montevideo/iglesia-carmelitas.html">
-                <img src="../../img/building/america/uruguay/montevideo/iglesia-carmelitas/iglesia-carmelitas1.jpg" alt="Iglesia de las Carmelitas">
+            <a class="building" href="../building/montevideo/iglesia-carmelitas.html">
+                <img src="../img/building/montevideo/iglesia-carmelitas/iglesia-carmelitas1.jpg" alt="Iglesia de las Carmelitas">
                 <div class="text">
                     <h3>Iglesia de las Carmelitas</h3>
                     <p>
@@ -62,9 +68,9 @@
                         intricate details, and a serene atmosphere. Its elegant design and spiritual 
                         significance make it one of the most distinctive religious landmarks in Montevideo.
                     </p>
-                    <a href="../../building/america/uruguay/montevideo/iglesia-carmelitas.html">Read more</a>
+                    <span class="read-more">Read more</span>
                 </div>
-            </article>
+            </a>
 
         </section>
 
@@ -73,9 +79,9 @@
     <footer>
         <div class="footer-content">
             <p class="footer-title">
-                <a href="../../index.html">Historic Architecture</a>
+                <a href="../index.html">Historic Architecture</a>
             </p>
-            <p class="footer-copy">© 2026 Historic Architecture. All rights reserved.</p>
+            <p class="footer-copy">© 2026 Guzmán Fajo. All rights reserved.</p>
         </div>
     </footer>
     

@@ -1,11 +1,11 @@
-.country-hero {
+.city-hero {
     text-align: center;
     padding: 80px 20px 50px;
     max-width: 900px;
     margin: auto;
 }
 
-.country-title {
+.city-title {
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: 4px;
@@ -13,7 +13,7 @@
     text-transform: uppercase;
 }
 
-.country-line {
+.city-line {
     width: 80px;
     height: 2px;
     background: #d4af37;
@@ -21,7 +21,7 @@
     opacity: 0.8;
 }
 
-.country-description {
+.city-description {
     color: #c7c7c7;
     font-size: 1.05rem;
     line-height: 1.9;
@@ -36,27 +36,10 @@
     scroll-margin-top: 140px;
 }
 
-.city h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #d4af37;
-    margin-bottom: 20px;
-}
-
-.city h2::after {
-    content: "";
-    display: block;
-    width: 70px;
-    height: 1px;
-    background: rgba(212, 175, 55, 0.35);
-    margin: 10px auto 0;
-}
-
 .building {
     display: flex;
+    text-decoration: none;
+    color: inherit;
     gap: 26px;
     margin-bottom: 50px;
     padding: 26px;
@@ -107,42 +90,36 @@
     margin-bottom: 18px;
 }
 
-.building a {
+.read-more {
     color: #b5b5b5;
-    text-decoration: none;
     font-size: 11px;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: 0.3s ease;
 }
 
-.building a:hover {
+.read-more:hover {
     color: #d4af37;
 }
 
 @media (max-width: 768px) {
 
-    .country-hero {
+    .city-hero {
         padding: 60px 20px 40px;
     }
 
-    .country-title {
+    .city-title {
         font-size: 32px;
         letter-spacing: 3px;
     }
 
-    .country-description {
+    .city-description {
         font-size: 16px;
         line-height: 1.8;
     }
 
     .city {
         padding: 20px;
-    }
-
-    .city h2 {
-        font-size: 28px;
-        letter-spacing: 2px;
     }
 
     .building {
@@ -174,30 +151,26 @@
 
 @media (max-width: 480px) {
 
-    .country-hero {
+    .city-hero {
         padding: 45px 16px 30px;
     }
 
-    .country-title {
+    .city-title {
         font-size: 28px;
         letter-spacing: 2px;
     }
 
-    .country-line {
+    .city-line {
         margin-bottom: 24px;
     }
 
-    .country-description {
+    .city-description {
         font-size: 15px;
         line-height: 1.7;
     }
 
     .city {
         padding: 16px;
-    }
-
-    .city h2 {
-        font-size: 24px;
     }
 
     .building {
@@ -216,8 +189,8 @@
         line-height: 1.7;
     }
 
-    .building a {
-        font-size: 10px;
-    }
+    .read-more {
+    font-size: 10px;
+}
 
 }

@@ -1,70 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historic Architecture</title>
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/home.css">
-    <script src="js/main.js" defer></script>
-    <script src="js/map-loader.js" defer></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Historic Architecture</title>
+        <link rel="stylesheet" href="css/global.css">
+        <link rel="stylesheet" href="css/home.css">
+        <script src="js/main.js" defer></script>
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <h1 class="site-title">
-            <a href="index.html">Historic Architecture</a>
-        </h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
+        <header>
+            <div class="header-top">
+                <div class="site-title">
+                    <a href="index.html">Historic Architecture</a>
+                </div>
 
-    <main>
-        
-        <section class="hero">
+                <button class="menu-toggle" aria-label="Open menu">
+                    ☰
+                </button>
+            </div>
 
-            <p class="hero-subtitle">
-                World Architectural Heritage
-            </p>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
 
-            <h2 class="hero-title">
-                Explore Historic Architecture
-            </h2>
+        <main>
 
-            <p class="hero-description">
-                Discover iconic landmarks, ancient monuments and
-                architectural masterpieces from every corner of the world.
-            </p>
+            <section class="hero">
+                <p class="hero-subtitle">World Architectural Heritage</p>
 
-            <a href="#world-map-svg" class="hero-button">
-                Explore the Map
-            </a>
+                <h1 class="hero-title">Explore Historic Architecture</h1>
 
-        </section>
+                <p class="hero-description">
+                    Discover remarkable buildings that shaped civilizations.
+                    Explore carefully curated collections of iconic architecture,
+                    from grand civic monuments to historic universities and churches.
+                </p>
 
-        <div class="map-frame">
-            <object
-                id="world-map-svg"
-                type="image/svg+xml"
-                data="img/maps/world-map.svg"
-                aria-label="World Map">
-            </object>
-        </div>
-    </main>
+                <a href="#cities" class="hero-button">
+                    Explore collection
+                </a>
 
-    <footer>
-        <div class="footer-content">
-            <p class="footer-title">
-                <a href="index.html">Historic Architecture</a>
-            </p>
-            <p class="footer-copy">© 2026 Guzmán Fajo. All rights reserved.</p>
-        </div>
-    </footer>
-    
-</body>
+            </section>
+
+            <section id="cities" class="featured-cities">
+                <div class="cities-grid">
+                    <a href="cities/montevideo.html" class="city-link">
+                        <article class="city-card">
+                            <div class="image-wrapper">
+                                <img src="img/home/montevideo.jpg" alt="Uruguay">
+                            </div>
+
+                            <div class="city-content">
+                                <h3>Montevideo</h3>
+
+                                <span class="building-count">2 Historic Buildings</span>
+
+                                <p>
+                                    Historic churches, academic buildings, public institutions 
+                                    and elegant monuments preserved across Montevideo.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <a href="cities/buenos-aires.html" class="city-link">
+                        <article class="city-card">
+                            <div class="image-wrapper">
+                                <img src="img/home/buenos-aires.jpg" alt="Argentina">
+                            </div>
+
+                            <div class="city-content">
+                                <h3>Buenos Aires</h3>
+                                
+                                <span class="building-count">6 Historic Buildings</span>
+
+                                <p>
+                                    Grand civic monuments, neoclassical palaces, theaters, and government 
+                                    buildings that define Buenos Aires' architectural identity.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p class="footer-title">
+                    <a href="index.html">Historic Architecture</a>
+                </p>
+
+                <p class="footer-copy">© 2026 Guzmán Fajo. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </body>
 </html>
