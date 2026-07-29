@@ -53,9 +53,17 @@ header {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .site-title {
     text-align: center;
-    margin-bottom: 20px;
+    line-height: 1;
+    transform: translateY(8px);
+    margin-bottom: 0;
     font-size: 22px;
     font-weight: 400;
     letter-spacing: 5px;
@@ -70,11 +78,20 @@ header {
 
 .menu-toggle {
     display: none;
-    background: none;
-    border: none;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(212,175,55,.18);
+    border-radius: 8px;
+    background: rgba(255,255,255,.03);
     color: #d4af37;
-    font-size: 2rem;
+    font-size: 1.25rem;
     cursor: pointer;
+    transition: .25s;
+}
+
+.menu-toggle:hover {
+    background: rgba(212,175,55,.08);
+    border-color: rgba(212,175,55,.35);
 }
 
 nav {
@@ -188,10 +205,23 @@ footer::before {
     transform: translateX(-50%);
 }
 
+@media (min-width: 769px) {
+
+    .header-top {
+        display: block;
+    }
+
+    .site-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
 @media (max-width: 768px) {
 
     header {
-        padding: 22px 20px;
+        padding: 22px 28px;
     }
 
     .site-title {
@@ -225,8 +255,8 @@ footer::before {
 
 @media (max-width: 480px) {
 
-    header {
-        padding: 18px 16px;
+    header{
+        padding:16px 18px;
     }
 
     .site-title {
