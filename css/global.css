@@ -61,8 +61,6 @@ header {
 
 .site-title {
     text-align: center;
-    line-height: 1;
-    transform: translateY(8px);
     margin-bottom: 0;
     font-size: 22px;
     font-weight: 400;
@@ -227,7 +225,9 @@ footer::before {
     .site-title {
         font-size: 18px;
         letter-spacing: 3px;
-        margin-bottom: 16px;
+        margin-bottom: 0;
+        line-height: 1;
+        
     }
 
     .menu-toggle {
