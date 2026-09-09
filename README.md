@@ -1,6 +1,6 @@
 # Historic Architecture
 
-Historic Architecture is a modern and responsive web application that showcases iconic architectural landmarks from around the world. The project provides an engaging browsing experience with a clean interface, allowing users to explore historical buildings and learn about their cultural significance.
+Historic Architecture is a modern and responsive web application that showcases a personal collection of photographs featuring historic architecture from different places. The project presents original photography through a clean and engaging interface, allowing users to explore architectural details, buildings, and the stories behind them.
 
 ## 🚀 Features
 
